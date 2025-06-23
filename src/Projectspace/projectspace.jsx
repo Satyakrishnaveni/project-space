@@ -1,7 +1,7 @@
 import React from 'react';
 import Maphead from './maphead';
 import Slides from './slides.jsx';
-import Footer from './mapfooterjsx';
+import MapFooter from './mapfooterjsx';
 import HomePage from "./Maphome.jsx";
 import { Link, Outlet } from "react-router-dom";
 
@@ -12,7 +12,7 @@ const Map = () => {
      
       <Outlet/>
 
-      <Footer/>
+      <MapFooter/>
       
       
             
